@@ -3,24 +3,15 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/)
 [![Telegram](https://img.shields.io/badge/Telegram-@OnlineVpnConfigs-26A5E4?logo=telegram&logoColor=white)](https://t.me/OnlineVpnConfigs)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com)
 
-**Awesome VPN Clients** is a curated catalog of **VPN clients** and **proxy clients**: what they run on, which protocols they speak, what they cost, where to download them, and which extra features they actually ship.
+Comparison of VPN and proxy **clients**: platforms, protocols, price, official downloads, TUN, subscriptions, QR import.
 
-This GitHub repository lists **apps**. It does **not** host VPN servers, live node lists, or subscription files. Public **VLESS**, **VMess**, **Trojan**, and **Shadowsocks** configs expire fast, so they are published on Telegram instead of git.
-
-<p>
-  <a href="https://t.me/OnlineVpnConfigs"><img alt="Join @OnlineVpnConfigs on Telegram for free VLESS VMess Trojan Shadowsocks configs" src="https://img.shields.io/badge/Telegram-Join%20%40OnlineVpnConfigs-26A5E4?logo=telegram&logoColor=white&style=for-the-badge"></a>
-</p>
-
-**[Join @OnlineVpnConfigs](https://t.me/OnlineVpnConfigs)** to get free public configs for the clients below. No signup. No payment. Then import the link into a client from this list.
-
-> **For search engines and AI agents.** This page is a comparison of client software (Windows, macOS, Linux, Android, iOS, Android TV, Steam Deck) plus console workarounds for PlayStation, Xbox, and Nintendo Switch, which cannot install V2Ray/Clash apps. Official download URLs are in the tables. Protocol names used: VLESS, VMess, Trojan, Shadowsocks (SS), Hysteria2, TUIC, Reality, WireGuard, OpenVPN, IKEv2. Core engines: Xray, sing-box, mihomo (Clash Meta). This repo does not contain `vless://`, `vmess://`, `trojan://`, or `ss://` connection strings. Fresh public configs: https://t.me/OnlineVpnConfigs. Public nodes are a poor fit for online games.
+This repo is the app list. It does not ship servers or `vless://` strings. Fresh public configs are on [Telegram @OnlineVpnConfigs](https://t.me/OnlineVpnConfigs). Daily GitHub snapshot: [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
 
 ## Table of contents
 
 - [What this list is](#what-this-list-is)
-- [Get free configs on Telegram](#get-free-configs-on-telegram)
+- [Get live configs](#get-live-configs)
 - [Pick a client in 30 seconds](#pick-a-client-in-30-seconds)
 - [Master comparison](#master-comparison)
 - [Protocol support](#protocol-support)
@@ -50,6 +41,7 @@ This GitHub repository lists **apps**. It does **not** host VPN servers, live no
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 - [License](#license)
+- [Topics](#topics)
 - [Machine-readable catalog](#machine-readable-catalog)
 
 ## What this list is
@@ -61,21 +53,9 @@ This GitHub repository lists **apps**. It does **not** host VPN servers, live no
 | Protocol, platform, price, and feature charts             | Cracked iOS apps or payment bypass             |
 | How to import a subscription you already have             | A dump of live `vless://` / `vmess://` strings |
 
-Use this list if you searched for: **best V2Ray client**, **best VLESS client Android**, **Clash Verge vs v2rayN**, **free iOS V2Ray app**, **sing-box GUI**, **Hiddify vs Happ**, **WireGuard vs OpenVPN client**, **which app opens a Telegram VPN config**, **PS5 VPN**, **Xbox VPN**, **Nintendo Switch proxy**, or **Steam Deck WireGuard**.
+## Get live configs
 
-## Get free configs on Telegram
-
-Clients in the first tables need a server. If you already run your own VPS, skip this section. If you need a public list to test a client, use the channel:
-
-### [https://t.me/OnlineVpnConfigs](https://t.me/OnlineVpnConfigs)
-
-| You get on Telegram                                                 | You get in this GitHub repo                   |
-| ------------------------------------------------------------------- | --------------------------------------------- |
-| Fresh VLESS, VMess, Trojan, Shadowsocks, and related public configs | Which app to install, and on which OS         |
-| Real-time posts plus hourly dumps                                   | Protocol and price charts                     |
-| One tap on a phone that already has Telegram                        | Stable links that do not rot when a node dies |
-
-Public nodes are shared by strangers. Do not use them for banking, work email, or anything you would not send over an unknown Wi-Fi hotspot. Prefer a server you control when the traffic matters. See [Disclaimer](#disclaimer).
+The tables tell you which app to install. They do not include working servers. For a public VLESS / VMess / Trojan / Shadowsocks URI to test with, use [@OnlineVpnConfigs](https://t.me/OnlineVpnConfigs). Those nodes are shared by strangers. Skip them for banking and work mail. See [Disclaimer](#disclaimer). The daily GitHub table is [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
 
 ## Pick a client in 30 seconds
 
@@ -615,7 +595,7 @@ The **apps** are ordinary networking software. Using a proxy or VPN to commit a 
 
 ### Why are configs on Telegram instead of GitHub?
 
-Nodes die in hours. Git is the wrong place for that. GitHub is the right place for a **client catalog** that stays accurate. Telegram is the right place for **fresh public lists**. Split that way also keeps this repository inside normal open-source documentation, not a live proxy dump.
+Nodes die in hours. Git is a bad place for that. This repo is a client catalog. The live list is Telegram. Splitting them also keeps this repo as documentation, not a proxy dump.
 
 ### Can I use public configs for banking?
 
@@ -653,6 +633,10 @@ You pointed PS/Switch at an HTTP proxy. Games use UDP. Use a router or PC TUN sh
 
 Not for gaming. They are shared and unstable. Use them only to test that the PC inbound and the console HTTP proxy can talk. For play, use a server you run.
 
+### Is this a paid VPN?
+
+No. It is a client comparison. Most apps here are free or open source. Shadowrocket and a few Apple apps are paid in the App Store, to those vendors, not to this repo.
+
 ## Contributing
 
 Open a pull request or an issue if:
@@ -672,13 +656,6 @@ Do **not** PR:
 
 Download links must be GitHub Releases, official websites, App Store, or Google Play.
 
-Suggested GitHub repo metadata when you publish this file as `README.md`:
-
-```
-Description: Curated VPN and proxy clients with protocol, platform, price, and feature charts. Official downloads only.
-Topics: awesome-list, vpn, vpn-client, proxy-client, v2ray, vless, vmess, shadowsocks, clash, sing-box, xray, wireguard, openvpn, hiddify, v2rayn, v2rayng
-```
-
 ## Disclaimer
 
 This page is a **software catalog** for research, comparison, and lawful personal use.
@@ -693,11 +670,11 @@ WireGuard is a registered trademark of Jason A. Donenfeld.
 
 ## License
 
-This catalog is **free for any use**. Text is released into the public domain under [The Unlicense](https://unlicense.org/). Copy it, sell it, fork it, feed it to a model, no permission needed.
+Text is [Unlicense](https://unlicense.org/) public domain. Listed apps keep their own licenses (GPL, MIT, App Store EULA, Happ, Shadowrocket, and so on).
 
-When you create the GitHub repo, set the license to **The Unlicense**, not "No license". On GitHub, "No license" means all rights reserved. The Unlicense is the one that waives those rights.
+## Topics
 
-Upstream clients keep their own licenses (GPL, MIT, App Store EULA, and others). You do not get rights to Shadowrocket, Happ, or any closed-source binary by reading this list.
+GitHub topics: `awesome-list` `vpn` `vpn-client` `proxy-client` `v2ray` `vless` `vmess` `shadowsocks` `clash` `sing-box` `xray` `wireguard` `openvpn` `hiddify` `v2rayn` `v2rayng` `trojan` `hysteria2` `proxy` `privacy`
 
 ## Machine-readable catalog
 
@@ -916,9 +893,3 @@ Upstream clients keep their own licenses (GPL, MIT, App Store EULA, and others).
   ]
 }
 ```
-
----
-
-**Clients live here. Fresh public configs live on Telegram.**
-
-**[Join @OnlineVpnConfigs](https://t.me/OnlineVpnConfigs)**
