@@ -2,11 +2,11 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/)
-[![Telegram](https://img.shields.io/badge/Telegram-@OnlineVpnConfigs-26A5E4?logo=telegram&logoColor=white)](https://t.me/OnlineVpnConfigs)
+[![Telegram](https://img.shields.io/badge/Telegram-@abc_vpn_configs-26A5E4?logo=telegram&logoColor=white)](https://t.me/abc_vpn_configs)
 
 Comparison of VPN and proxy **clients**: platforms, protocols, price, official downloads, TUN, subscriptions, QR import.
 
-This repo is the app list. It does not ship servers or `vless://` strings. Fresh public configs are on [Telegram @OnlineVpnConfigs](https://t.me/OnlineVpnConfigs). Daily GitHub snapshot: [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
+This repo is the app list. It does not ship servers or `vless://` strings. Fresh public configs are on [Telegram @abc_vpn_configs](https://t.me/abc_vpn_configs). Daily GitHub snapshot: [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
 
 ## Table of contents
 
@@ -55,7 +55,7 @@ This repo is the app list. It does not ship servers or `vless://` strings. Fresh
 
 ## Get live configs
 
-The tables tell you which app to install. They do not include working servers. For a public VLESS / VMess / Trojan / Shadowsocks URI to test with, use [@OnlineVpnConfigs](https://t.me/OnlineVpnConfigs). Those nodes are shared by strangers. Skip them for banking and work mail. See [Disclaimer](#disclaimer). The daily GitHub table is [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
+The tables tell you which app to install. They do not include working servers. For a public VLESS / VMess / Trojan / Shadowsocks URI to test with, use [@abc_vpn_configs](https://t.me/abc_vpn_configs). Those nodes are shared by strangers. Skip them for banking and work mail. See [Disclaimer](#disclaimer). The daily GitHub table is [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
 
 ## Pick a client in 30 seconds
 
@@ -95,7 +95,7 @@ flowchart TD
   K --> R
   L --> R
   P --> R
-  R --> S["t.me/OnlineVpnConfigs"]
+  R --> S["t.me/abc_vpn_configs"]
 ```
 
 ## Master comparison
@@ -300,7 +300,7 @@ PlayStation, Xbox, and Nintendo Switch **cannot install** v2rayN, v2rayNG, Hiddi
 
 Steam Deck is the exception: it runs SteamOS (Linux). Install a real client there.
 
-Public Telegram nodes are a bad idea for ranked play: shared bandwidth, unstable UDP, and high ping. For games, use a **WireGuard** or **OpenVPN** server you control ([Algo](https://github.com/trailofbits/algo), [openvpn-install](https://github.com/angristan/openvpn-install), [Amnezia](https://github.com/amnezia-vpn/amnezia-client)), or a paid VPN that publishes a router profile. Use [Telegram @OnlineVpnConfigs](https://t.me/OnlineVpnConfigs) only to test that Method 3 (HTTP proxy) even connects.
+Public Telegram nodes are a bad idea for ranked play: shared bandwidth, unstable UDP, and high ping. For games, use a **WireGuard** or **OpenVPN** server you control ([Algo](https://github.com/trailofbits/algo), [openvpn-install](https://github.com/angristan/openvpn-install), [Amnezia](https://github.com/amnezia-vpn/amnezia-client)), or a paid VPN that publishes a router profile. Use [Telegram @abc_vpn_configs](https://t.me/abc_vpn_configs) only to test that Method 3 (HTTP proxy) even connects.
 
 ### What the console can do
 
@@ -427,14 +427,14 @@ Do not jailbreak the Deck for a "console VPN IPAs" pack. Official Linux clients 
 | Ban / ToS                    | Some publishers restrict VPNs. That is their rule, not this catalog's. Using a tunnel to evade a hardware/region ban can violate the game agreement. |
 | Public node on Telegram      | Fine to see if a PS proxy test turns green. Do not take it into ranked queues.                                                                       |
 
-Configs for a self-hosted WireGuard peer are files you generate on **your** server. They are not the Telegram VLESS list. For throwaway HTTP-proxy tests only, join [https://t.me/OnlineVpnConfigs](https://t.me/OnlineVpnConfigs) and import the sub on the **PC**, not on the console.
+Configs for a self-hosted WireGuard peer are files you generate on **your** server. They are not the Telegram VLESS list. For throwaway HTTP-proxy tests only, join [https://t.me/abc_vpn_configs](https://t.me/abc_vpn_configs) and import the sub on the **PC**, not on the console.
 
 ## How to import a config
 
 Same idea on every serious client. Names of buttons differ.
 
 1. Install a client from the tables above. Use the official link only.
-2. Open [https://t.me/OnlineVpnConfigs](https://t.me/OnlineVpnConfigs) and copy a **subscription URL** or a single share link.
+2. Open [https://t.me/abc_vpn_configs](https://t.me/abc_vpn_configs) and copy a **subscription URL** or a single share link.
 3. In the app, find **Subscription**, **Profile**, **Add from clipboard**, or **Import from URL**.
 4. Paste, wait for the node list, then **Update**.
 5. Run a **latency / ping test**. Sort. Connect to a live server.
@@ -457,7 +457,7 @@ Same idea on every serious client. Names of buttons differ.
 
 If import fails, the format may not match the core. Clash YAML belongs in a mihomo GUI. Base64 V2Ray lists belong in v2rayN / v2rayNG / Streisand / Happ. sing-box JSON belongs in sing-box or Hiddify. The Telegram channel posts formats that the common apps accept.
 
-Need a config right now? **[Join the Telegram channel](https://t.me/OnlineVpnConfigs).**
+Need a config right now? **[Join the Telegram channel](https://t.me/abc_vpn_configs).**
 
 ## Self-hosted VPN clients
 
@@ -565,7 +565,7 @@ These are **not** this catalog. They are the lists and installers people confuse
 | OpenWrt                     | Router OS used as the console's VPN client                                                                          | [openwrt.org](https://openwrt.org/)                                                         |
 | GL.iNet                     | Travel/home routers with a WireGuard/OpenVPN client GUI                                                             | [gl-inet.com](https://www.gl-inet.com/)                                                     |
 | **This repo**               | Client comparison only                                                                                              | You are here                                                                                |
-| **Telegram companion**      | Fresh public configs for the clients above                                                                          | [t.me/OnlineVpnConfigs](https://t.me/OnlineVpnConfigs)                                      |
+| **Telegram companion**      | Fresh public configs for the clients above                                                                          | [t.me/abc_vpn_configs](https://t.me/abc_vpn_configs)                                      |
 
 ## FAQ
 
@@ -579,7 +579,7 @@ There is no single winner. On Windows use **v2rayN**. On Android use **v2rayNG**
 
 ### Does this repository give me a VPN server?
 
-No. This repository is a **client list**. For a server you control, use Algo, openvpn-install, Outline Manager, or Amnezia. For public test configs, use [Telegram @OnlineVpnConfigs](https://t.me/OnlineVpnConfigs).
+No. This repository is a **client list**. For a server you control, use Algo, openvpn-install, Outline Manager, or Amnezia. For public test configs, use [Telegram @abc_vpn_configs](https://t.me/abc_vpn_configs).
 
 ### Which client works with a Telegram VLESS / VMess / Trojan / SS link?
 
@@ -685,10 +685,10 @@ GitHub topics: `awesome-list` `vpn` `vpn-client` `proxy-client` `v2ray` `vless` 
   "updated": "2026-08-23",
   "hosts_proxy_nodes": false,
   "hosts_subscription_files": false,
-  "public_configs": "https://t.me/OnlineVpnConfigs",
+  "public_configs": "https://t.me/abc_vpn_configs",
   "telegram": {
-    "handle": "@OnlineVpnConfigs",
-    "url": "https://t.me/OnlineVpnConfigs",
+    "handle": "@abc_vpn_configs",
+    "url": "https://t.me/abc_vpn_configs",
     "contents": [
       "vless",
       "vmess",
