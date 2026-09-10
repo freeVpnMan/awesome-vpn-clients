@@ -6,7 +6,7 @@
 
 Comparison of VPN and proxy **clients**: platforms, protocols, price, official downloads, TUN, subscriptions, QR import.
 
-This repo is the app list. It does not ship servers or `vless://` strings. Fresh public configs are on [Telegram @abc_vpn_configs](https://t.me/abc_vpn_configs). Daily GitHub snapshot: [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
+This repo is the app list. It does not ship servers or `vless://` strings. Fresh public configs are on [Telegram @abc_vpn_configs](https://t.me/abc_vpn_configs). Daily GitHub snapshot: [abc-configs-free-vpn-proxy](https://github.com/freeVpnMan/abc-configs-free-vpn-proxy).
 
 ## Table of contents
 
@@ -55,7 +55,7 @@ This repo is the app list. It does not ship servers or `vless://` strings. Fresh
 
 ## Get live configs
 
-The tables tell you which app to install. They do not include working servers. For a public VLESS / VMess / Trojan / Shadowsocks URI to test with, use [@abc_vpn_configs](https://t.me/abc_vpn_configs). Those nodes are shared by strangers. Skip them for banking and work mail. See [Disclaimer](#disclaimer). The daily GitHub table is [top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list).
+The tables tell you which app to install. They do not include working servers. For a public VLESS / VMess / Trojan / Shadowsocks URI to test with, use [@abc_vpn_configs](https://t.me/abc_vpn_configs). Those nodes are shared by strangers. Skip them for banking and work mail. See [Disclaimer](#disclaimer). The daily GitHub table is [abc-configs-free-vpn-proxy](https://github.com/freeVpnMan/abc-configs-free-vpn-proxy).
 
 ## Pick a client in 30 seconds
 
@@ -555,7 +555,7 @@ These are **not** this catalog. They are the lists and installers people confuse
 
 | Project                     | What it actually is                                                                                                 | Link                                                                                        |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **top-free-vpn-proxy-list** | Free VLESS, VMess, Trojan, and Shadowsocks configs, refreshed on a schedule. Same Telegram channel as this catalog. | [freeVpnMan/top-free-vpn-proxy-list](https://github.com/freeVpnMan/top-free-vpn-proxy-list) |
+| **abc-configs-free-vpn-proxy** | Free VLESS, VMess, Trojan, and Shadowsocks configs, refreshed on a schedule. Same Telegram channel as this catalog. | [freeVpnMan/abc-configs-free-vpn-proxy](https://github.com/freeVpnMan/abc-configs-free-vpn-proxy) |
 | awesome-vpn                 | Daily public node aggregator (Base64 / Clash / sing-box files)                                                      | [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn)                       |
 | awesome-freedom             | Tool index (clients, servers, VPS notes)                                                                            | [hiddify/awesome-freedom](https://github.com/hiddify/awesome-freedom)                       |
 | vpn-configs-for-russia      | Public configs aimed at a specific network environment                                                              | [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia)         |
