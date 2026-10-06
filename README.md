@@ -135,6 +135,7 @@ Legend: **OSS** = source on GitHub. **Closed** = binary only. **Free** = no app 
 | **Tunnelblick**            | macOS                                   | OpenVPN                      | Free                | OSS         | [tunnelblick.net](https://tunnelblick.net/)                                 | macOS OpenVPN GUI                     |
 | **Outline Client**         | Windows, macOS, Linux, Android, iOS     | Shadowsocks                  | Free                | OSS         | [getoutline.org](https://getoutline.org/)                                   | Jigsaw Outline access keys            |
 | **Amnezia VPN**            | Windows, macOS, Linux, Android, iOS     | WG, OpenVPN, Xray, AmneziaWG | Free app            | OSS         | [GitHub](https://github.com/amnezia-vpn/amnezia-client)                     | Self-host on your VPS from the app    |
+| **Mobile SSH**             | Android                                 | Multi                        | Free                | Closed      | [Google Play](https://play.google.com/store/apps/details?id=io.github.mobile_ssh) | Own SSH servers and WireGuard, Shadowsocks, or OpenVPN profiles |
 
 GitHub star counts change. Use the shields on each project page. As of August 2026, v2rayN and Clash Verge Rev are the two largest desktop GUIs in this class.
 
@@ -225,6 +226,7 @@ Need Visual C++ runtimes if a Qt or C++ GUI fails to start. Download runtimes fr
 | 11   | WireGuard              | [Play](https://play.google.com/store/apps/details?id=com.wireguard.android)                                                      | WG only                                 |
 | 12   | OpenVPN for Android    | [GitHub](https://github.com/schwabe/ics-openvpn)                                                                                 | FOSS .ovpn                              |
 | 13   | Amnezia                | [amnezia.org](https://amnezia.org)                                                                                               | Self-host stack                         |
+| 14   | Mobile SSH             | [Play](https://play.google.com/store/apps/details?id=io.github.mobile_ssh)                                                       | Own servers/profiles: WireGuard, Shadowsocks, OpenVPN; SSH VPN carries TCP/DNS only |
 
 Prefer GitHub Releases or Google Play. Avoid third-party APK mirrors.
 
